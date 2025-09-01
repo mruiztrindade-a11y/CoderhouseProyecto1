@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Traductora</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!-- Body -->
+
+<body class="body">
+
+<!-- Header -->
+
+<header class="index-header d-flex align-items-center justify-content-between">
+    <div class="logotipo"> 
+        <img src="./img/logoPagina.png" alt="Logotipo Martina Ruiz Trindade Spanish to english translator">
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <div class="container-fluid desplegable">
+         <button class="desplegable navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse desplegable" id="navbarSupportedContent">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                         <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link active" aria-current="page" href="./pages/sobremi.html">Sobre Mí</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                     </li>
+                 <form class="d-flex" role="Buscar">
+                      <input class="form-control me-2" type="Buscaar" placeholder="Buscar" aria-label="Buscar"/>
+                      <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                 </form>
+         </div>
+     </div>
+    </nav>
+</header>
+
+<!-- Main -->
+
+<main class="index-main">
+     <section>
+
+            <!-- Presupuesto -->
+
+            <div class="presupuesto-main card">
+                    <img src="./img/traduFondo.jpg" class="card-img" alt="Imagen ilustrativa de la certificación de un traductor público">
+                <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start text-start text-white">
+                    <p class="card-text"><small>Desde 2025</small></p>
+                    <h1 class="card-title">Traducción de documentos técnicos y legales</h1>
+                    <p class="card-text">Español - Inglés</p>
+                    <a href="./pages/contacto.html" class="btn text-white">Obtenga un presupuesto</a>
+                </div>
+            </div>
+
+            <!-- Descripción de trabajos -->
+    
+            <div class="d-flex flex-column justify-content-center align-items-center text-center mt-5 mb-5">
+                <section class="sections-main col-12 col-md-10 col-lg-8 mx-auto">
+                    <h2>Traducciones legales y certificadas</h2>
+                    <p>Ofrecemos traducciones técnicas-científicas y legales del español al inglés y del inglés al español, garantizando precisión terminológica y fidelidad al texto original. Como Traductores Públicos matriculados, las traducciones cuentan con certificación oficial del Colegio de Traductores Públicos, lo que asegura su validez ante organismos públicos y privados.</p>
+                </section>
+
+                <section class="sections-main col-12 col-md-10 col-lg-8 mx-auto">
+                    <h2>¿Cómo podemos ayudarte?</h2>
+                    <p>Ofrecemos cotización en menos de 24hs. Las tarifas dependen de diversos factores, como volumen de la traducción, tipo de documento y fecha de entrega. Para obtener un presupuesto rápido del servicio, envianos una imagen del documento o texto que necesitas traducir.</p>
+                </section>
+            </div>
+
+            <!-- Cards especialización -->
+
+            <div class="especializaciones row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="./img/traduPublica.jpg" class="card-img-top" alt="Imagen ilustrativa de la traducción pública">
+                        <div class="card-body">
+                            <h5 class="card-title">Traducción Pública de Documentos Legales</h5>
+                            <p class="card-text">Realizamos traducciones públicas con firma digital y firma ológrafa legalizada por el Colegio de Traductores Públicos de la Ciudad de Buenos Aires.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="./img/traduCientifica.jpg" class="card-img-top" alt="Imagen ilustrativa de la traducción técnica">
+                        <div class="card-body">
+                            <h5 class="card-title">Traducción Técnica</h5>
+                            <p class="card-text">Contamos con experiencia en la traducción de documentos científicos, tecnológicos y profesionales, adaptando cada texto según las necesidades del cliente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="./img/traduAudiovisual.png" class="card-img-top" alt="Imagen ilustrativa de la traducción audiovisual">
+                        <div class="card-body">
+                            <h5 class="card-title">Traducción audiovisual</h5>
+                            <p class="card-text">Realizamos traducciones audiovisuales que incluyen subtitulado, doblaje y accesibilidad, asegurando una adaptación clara, culturalmente adecuada y fiel al mensaje original.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="./img/traduSitiosWeb.png" class="card-img-top" alt="Imagen ilustrativa de la localización">
+                        <div class="card-body">
+                            <h5 class="card-title">Localización</h5>
+                            <p class="card-text">Ofrecemos servicios de localización para sitios web, software y productos digitales, adaptando el contenido a la cultura y mercado de destino para garantizar una experiencia auténtica y natural.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</main>
+
+    <!-- Footer -->
+<!-- 
+<footer class="footer-design d-flex justify-content-between align-items-center">
+        <div class="footer-note">
+        <p>Martina Ruiz Trindade Traducciones - Todos los derechos reservados.</p>
+        </div>
+
+        <div class="footer-icons d-flex g-3">
+            <a href="https://www.instagram.com/marturuiiz/" target="_blank" rel="noopener">
+                <Div class="logo-wrapper">
+                <img class="logotipo-footer" src="./img/logoInstagram.avif" alt="Instagram Logo">
+                </Div>
+            </a>
+
+        <a href="https://www.facebook.com/martina.ruiztrindade/" target="_blank" rel="noopener">
+            <Div class="logo-wrapper">
+            <img class="logotipo-footer" src="./img/logoFaceook.png" alt="Facebook Logo">
+            </Div>
+        </a>
+
+            <a href="https://www.linkedin.com/in/martina-ruiz-trindade/" target="_blank" rel="noopener">
+                <Div class="logo-wrapper">
+                <img class="logotipo-footer" src="./img/logoLinkedin.avif" alt="LinkedIn Logo">
+                </Div>
+            </a>
+        </div>
+
+</footer> -->
+
+<footer class="footer-design text-white py-3">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <!-- Texto del footer -->
+    <div class="text-black mb-3 mb-md-0">
+      <p class="mb-0">Martina Ruiz Trindade Traducciones - Todos los derechos reservados.</p>
+    </div>
+    
+    <!-- Logos -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="https://www.instagram.com/marturuiiz/" target="_blank" rel="noopener">
+        <div class="logo-wrapper">
+          <img src="./img/logoInstagram.avif" alt="Instagram Logo" class="logotipo-footer">
+        </div>
+      </a>
+      <a href="https://www.facebook.com/martina.ruiztrindade/" target="_blank" rel="noopener">
+        <div class="logo-wrapper">
+          <img src="./img/logoFaceook.png" alt="Facebook Logo" class="logotipo-footer">
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/martina-ruiz-trindade/" target="_blank" rel="noopener">
+        <div class="logo-wrapper">
+          <img src="./img/logoLinkedin.avif" alt="LinkedIn Logo" class="logotipo-footer">
+        </div>
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
