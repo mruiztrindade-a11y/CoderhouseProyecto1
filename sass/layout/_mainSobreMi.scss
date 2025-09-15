@@ -1,0 +1,49 @@
+/* Main sobre mí */
+
+.about-section {
+  background-color: #f9f6f4;
+  padding: 3rem 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 900px;
+  @include widthRelleno(100%, 2rem);
+  background: $colorBlanco;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.about-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #555;
+}
+
+.about-block {
+  margin-bottom: 2rem;
+}
+
+.about-block h2 {
+  font-size: 1.4rem;
+  color: #6a4c93;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #6a4c93;
+  padding-left: 0.5rem;
+}
+
+.about-block p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}

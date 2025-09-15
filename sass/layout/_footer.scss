@@ -1,0 +1,14 @@
+/* Footer */
+.footer-design{
+    background-color: $colorFondo;
+}
+
+.logotipo-footer{
+    @include widthRelleno(3rem, 5px);
+    height: 3rem;
+    object-fit: cover;
+}
+
+.logo-wrapper {
+    background-color: $colorFondo;
+}
