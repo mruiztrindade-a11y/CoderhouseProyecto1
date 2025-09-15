@@ -1,0 +1,30 @@
+/* Header/Nav */
+.index-header {
+  background-color: $colorFondo; /* tu variable SCSS */
+  padding: 10px 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: $colorFondo !important; /* asegura fondo correcto */
+  padding: 0; /* opcional: elimina padding extra */
+  margin: 0;
+}
+
+/* Logo */
+.logotipo img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+/* Ajustes en móviles */
+@media (max-width: 768px) {
+  .index-header {
+    padding: 5px 10px;
+  }
+
+  .logotipo img {
+    width: 120px; /* achica logo en pantallas chicas */
+  }
+}

@@ -10,3 +10,13 @@ height: 400px;
 border: none;
 filter: brightness(0.6);
 }
+
+.presupuesto-main {
+    position: relative;
+    @extend %flexColumn;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .375rem;
+}
+
